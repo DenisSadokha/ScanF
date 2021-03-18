@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ScanF</string>
+    <string name="Nomenclature">Выдача</string>
+    <string name="Uchet">Серии</string>
+    <string name="Exit">Выход</string>
+    <string name="Code">Код:</string>
+</resources>

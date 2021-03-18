@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackgroundMain">#E6E3B5</color>
+    <color name="colorBut">#1058DB</color>
+    <color name="colorbackButExit">#E96D6D</color>
+    <color name="colorForBalance">#253BA7</color>
+    <color name="colorForButAdd">#3AD54E</color>
+    <color name="colorList">#3686DD</color>
+    <color name="colorCard">#4A4A52</color>
+
+</resources>

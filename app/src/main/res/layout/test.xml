@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvWho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:text="qweqwsdadasdasdasdasdqw">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/tvWhere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/just_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="-1dp"
+        android:text="qweqwsdadasdasdasdasdqw">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/choose_Who"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:text="Кто">
+
+    </Button>
+
+    <view
+        android:id="@+id/just_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/choose_Who"
+        android:background="#8D7B7B7B" />
+
+    <Button
+        style="@style/AppTheme"
+
+        android:gravity="start|center"
+        android:text="Куда"
+        android:id="@+id/choose_Where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/just_view"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground">
+
+    </Button>
+
+</RelativeLayout>

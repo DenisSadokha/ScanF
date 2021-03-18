@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tvWho"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="3dp"
+        android:gravity="center"
+        android:text="qweqwsdadasdasadasdasdqw"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        >
+
+    </TextView>
+
+    <TextView
+        android:textColor="#000000"
+        android:id="@+id/tvWhere"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/just_view"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="qweqwsdadasdasdasdasdqw"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/choose_Who"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:text="Кто">
+
+    </Button>
+
+    <View
+        android:id="@+id/just_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@+id/choose_Who"
+        android:background="#8D7B7B7B" />
+
+    <Button
+        android:id="@+id/choose_Where"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/just_view"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="start|center"
+        android:text="Куда">
+
+    </Button>
+
+    <Button
+
+        android:id="@+id/ok"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="ОК"
+        android:background="@drawable/back_but"
+        android:layout_marginStart="70dp"
+        android:layout_below="@+id/choose_Where"
+       >
+
+    </Button>
+
+
+</RelativeLayout>
